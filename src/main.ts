@@ -109,6 +109,19 @@ const bookItem: book  = {
 console.log(bookItem, typeof bookItem.title)
 
 
+interface book2{
+	title: string;
+	date?: number; //あるかないか分からない時 ? をつける
+}
+
+const book2Item: book2  = {
+	title: 'タイトル',
+	// date: 20230725 //なくてもok
+}
+
+console.log(book2Item, typeof book2Item.title)
+
+
 
 
 ////////////////////////////////////////////////////////////////////////
