@@ -95,6 +95,20 @@ let you2: figureType = 'デブ';
 
 console.log(you1, you2);
 
+// インターフェイス オブジェクトに使用 typeエイリアスに似てるけどオブジェクトだけ
+interface book{
+	title: string;
+	date: number;
+}
+
+const bookItem: book  = {
+	title: 'タイトル',
+	date: 20230725
+}
+
+console.log(bookItem, typeof bookItem.title)
+
+
 
 
 ////////////////////////////////////////////////////////////////////////
