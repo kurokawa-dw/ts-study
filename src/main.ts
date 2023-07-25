@@ -1,6 +1,7 @@
 import { primitiveSample } from "./basic";
 import { isUserSignedIn, isUserSignedIn2, sumProductsPrice, logMessage6 } from "./function/prameters";
 import objectSample from "./object/object";
+import typeAliasSample from "./object/alias";
 
 primitiveSample();
 
@@ -16,6 +17,7 @@ logMessage6('メッセージ');
 
 
 objectSample();
+typeAliasSample();
 
 
 
