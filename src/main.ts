@@ -1,5 +1,6 @@
 import { primitiveSample } from "./basic";
 import { isUserSignedIn, isUserSignedIn2, sumProductsPrice, logMessage6 } from "./function/prameters";
+import objectSample from "./object/object";
 
 primitiveSample();
 
@@ -11,7 +12,10 @@ const prices = [1,2,3,4];
 console.log(sumProductsPrice(...prices)) //↓どちらでもOK
 console.log(sumProductsPrice(1,2,3,4,5))
 
-logMessage6('メッセージ')
+logMessage6('メッセージ');
+
+
+objectSample();
 
 
 
