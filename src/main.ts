@@ -7,6 +7,8 @@ import genericsAdvancedSample from "./generics/advanced";
 import { Game } from "./oop/shogi";
 import popularComic from "./interface/interface";
 import callbackSample from "./asynchronous/callback";
+import promiseSample from "./asynchronous/promise";
+import asyncAwaitSample from "./asynchronous/asyncAwait";
 
 
 // primitiveSample();
@@ -30,15 +32,18 @@ import callbackSample from "./asynchronous/callback";
 // genericsAdvancedSample();
 
 
-const game = new Game();
-console.log(game)
-console.log(popularComic)
+// const game = new Game();
+// console.log(game)
+// console.log(popularComic)
 
-callbackSample()
+// callbackSample()
+// promiseSample()
+asyncAwaitSample()
 
 
 ////////////////////////////////////////////////////////////////////////
 ////////////////////////////////////////////////////////////////////////
 import memo from "./typememo/memo";
+
 
 // memo();
