@@ -8,6 +8,7 @@ class Comic implements Book {
 	page: number;
 	title: string;
 
+	// privateの引数は自動的にthisに入る？？
 	constructor(page: number, title: string, private publishYear: string){
 		this.page = page
 		this.title = title
