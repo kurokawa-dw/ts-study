@@ -4,27 +4,31 @@ import objectSample from "./object/object";
 import typeAliasSample from "./object/alias"
 import genericsBasicSample from "./generics/basic"
 import genericsAdvancedSample from "./generics/advanced";
+import { Game } from "./oop/shogi";
 
-primitiveSample();
+// primitiveSample();
 
-isUserSignedIn('ABC', 'Keiichi');
-isUserSignedIn('ABD'); //オプショナル ? を関数定義でつけているから第２引数がなくてもOK
-isUserSignedIn2('ABC');
+// isUserSignedIn('ABC', 'Keiichi');
+// isUserSignedIn('ABD'); //オプショナル ? を関数定義でつけているから第２引数がなくてもOK
+// isUserSignedIn2('ABC');
 
-const prices = [1,2,3,4];
-console.log(sumProductsPrice(...prices)) //↓どちらでもOK
-console.log(sumProductsPrice(1,2,3,4,5))
+// const prices = [1,2,3,4];
+// console.log(sumProductsPrice(...prices)) //↓どちらでもOK
+// console.log(sumProductsPrice(1,2,3,4,5))
 
-logMessage6('メッセージ');
+// logMessage6('メッセージ');
 
 
-objectSample();
-typeAliasSample();
+// objectSample();
+// typeAliasSample();
 
-// 07.ジェネリック型とポリモーフィズム
-genericsBasicSample();
-genericsAdvancedSample();
+// // 07.ジェネリック型とポリモーフィズム
+// genericsBasicSample();
+// genericsAdvancedSample();
 
+
+const game = new Game();
+console.log(game)
 
 
 ////////////////////////////////////////////////////////////////////////
