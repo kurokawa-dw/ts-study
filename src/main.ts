@@ -6,6 +6,8 @@ import genericsBasicSample from "./generics/basic"
 import genericsAdvancedSample from "./generics/advanced";
 import { Game } from "./oop/shogi";
 import popularComic from "./interface/interface";
+import callbackSample from "./asynchronous/callback";
+
 
 // primitiveSample();
 
@@ -31,6 +33,8 @@ import popularComic from "./interface/interface";
 const game = new Game();
 console.log(game)
 console.log(popularComic)
+
+callbackSample()
 
 
 ////////////////////////////////////////////////////////////////////////
