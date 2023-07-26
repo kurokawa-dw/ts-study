@@ -5,6 +5,7 @@ import typeAliasSample from "./object/alias"
 import genericsBasicSample from "./generics/basic"
 import genericsAdvancedSample from "./generics/advanced";
 import { Game } from "./oop/shogi";
+import popularComic from "./interface/interface";
 
 // primitiveSample();
 
@@ -29,6 +30,7 @@ import { Game } from "./oop/shogi";
 
 const game = new Game();
 console.log(game)
+console.log(popularComic)
 
 
 ////////////////////////////////////////////////////////////////////////

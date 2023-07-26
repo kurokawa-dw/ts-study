@@ -39,10 +39,10 @@ export default function typeAliasSample(){
 		magicSkill: string
 	}
 
-	// 合併型
+	// 合併型 union
 	type Adventurer = Knight | Wizard
 
-	// 交差型
+	// 交差型 intersection
 	type Paladin = Knight & Wizard
 
 	const chara1: Adventurer = {
